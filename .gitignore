@@ -77,5 +77,3 @@ venv.bak/
 .history
 
 *.DS_Store
-
-*tests*

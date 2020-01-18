@@ -1,0 +1,398 @@
+[
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$180000$60EgScmFFnV2$B5zIovyR2E1gS8HsR7cW85iWArVzv1NsXsSCOmuY6xQ=",
+      "last_login": "2020-01-05T19:30:15.837Z",
+      "is_superuser": true,
+      "username": "kaylee",
+      "first_name": "",
+      "last_name": "",
+      "email": "test@example.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2020-01-05T19:29:11.345Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$180000$S4J9d24usbWZ$kCXaYBPt62ivRQFwpcWGhjBdIDUPIqCWFq4m3bwJOlM=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "bob",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2020-01-05T19:31:17.702Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$180000$U2zk1Pko0vdc$xbypA2y5KbJUV51iHOBMlijExouHrzY+RoVCrfZK+6Y=",
+      "last_login": "2020-01-12T22:39:55.056Z",
+      "is_superuser": true,
+      "username": "caleb",
+      "first_name": "",
+      "last_name": "",
+      "email": "caleboau2012@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2020-01-11T15:07:30.038Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$180000$hmsdECkNvo0v$qWyOfKYN01B0fC+05iKUHbXIpC8gQQnVpgmtwS3E/kE=",
+      "last_login": "2020-01-12T22:38:48.647Z",
+      "is_superuser": false,
+      "username": "caleb1",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2020-01-12T22:38:28.432Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "ihexumm8f0d003ypg4dxp0w3j4mfbk76",
+    "fields": {
+      "session_data": "MDE5ZGUyMjA2N2IzMjhlZTEyZjgzYTk3MTUzNDNhNTFhNGFhZTgxNjp7Il9hdXRoX3VzZXJfaWQiOiI0IiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmNzFlZmM1NTM2NDQwMGQyYjNjM2Q3ZDU3N2ZjZWYwMGJjNDEzNjk4In0=",
+      "expire_date": "2020-01-26T22:38:48.651Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "p1wvfonyfnna5y2akittiqkg9ggth4zw",
+    "fields": {
+      "session_data": "ZGUxZTJhN2Y0ZTZmMTkyMjc2NjZlNmZhNWZhZDFlYmIxNzE5MDJjMTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI3MTBiZTlhOWY5OWMyNmVlYjEzMzMwMmNjNDM5YWUzYzJmNTY0NGMxIn0=",
+      "expire_date": "2020-01-19T19:30:15.843Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "rdc29ass0cwdnglrvnvnrsqgyihn278f",
+    "fields": {
+      "session_data": "ZDQ3ZjdhZTgxZTUzYjZjOGZjNWU5ZDg1MmM0ZDA2MGU2MDNmOGMxZDp7Il9hdXRoX3VzZXJfaWQiOiIzIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4Yjg1YTA0OTYxYzA1NzM0YTc0NjdhZGM1MzE5NDc2MjM0ZjBhNTFmIn0=",
+      "expire_date": "2020-01-26T22:39:55.059Z"
+    }
+  },
+  {
+    "model": "gameplay.game",
+    "pk": 1,
+    "fields": {
+      "first_player": ["kaylee"],
+      "second_player": ["bob"],
+      "start_time": "2020-01-05T19:31:23.094Z",
+      "last_active": "2020-01-05T19:31:23.094Z",
+      "status": "F"
+    }
+  },
+  {
+    "model": "gameplay.game",
+    "pk": 2,
+    "fields": {
+      "first_player": ["caleb"],
+      "second_player": ["bob"],
+      "start_time": "2020-01-11T16:35:47.652Z",
+      "last_active": "2020-01-12T21:48:58.342Z",
+      "status": "S"
+    }
+  },
+  {
+    "model": "gameplay.game",
+    "pk": 3,
+    "fields": {
+      "first_player": ["kaylee"],
+      "second_player": ["caleb"],
+      "start_time": "2020-01-11T16:35:56.947Z",
+      "last_active": "2020-01-11T16:36:55.343Z",
+      "status": "S"
+    }
+  },
+  {
+    "model": "gameplay.game",
+    "pk": 4,
+    "fields": {
+      "first_player": ["caleb"],
+      "second_player": ["caleb"],
+      "start_time": "2020-01-12T15:45:24.143Z",
+      "last_active": "2020-01-12T21:49:22.277Z",
+      "status": "W"
+    }
+  },
+  {
+    "model": "gameplay.game",
+    "pk": 5,
+    "fields": {
+      "first_player": ["caleb"],
+      "second_player": ["caleb1"],
+      "start_time": "2020-01-12T22:39:59.643Z",
+      "last_active": "2020-01-12T22:40:16.665Z",
+      "status": "W"
+    }
+  },
+  {
+    "model": "gameplay.game",
+    "pk": 6,
+    "fields": {
+      "first_player": ["caleb"],
+      "second_player": ["caleb1"],
+      "start_time": "2020-01-12T22:48:15.179Z",
+      "last_active": "2020-01-12T22:48:21.450Z",
+      "status": "W"
+    }
+  },
+  {
+    "model": "gameplay.game",
+    "pk": 7,
+    "fields": {
+      "first_player": ["caleb1"],
+      "second_player": ["caleb"],
+      "start_time": "2020-01-12T22:50:00.702Z",
+      "last_active": "2020-01-12T22:52:27.485Z",
+      "status": "W"
+    }
+  },
+  {
+    "model": "gameplay.move",
+    "pk": 1,
+    "fields": {
+      "x": 0,
+      "y": 0,
+      "comment": "",
+      "by_first_player": true,
+      "game": 2
+    }
+  },
+  {
+    "model": "gameplay.move",
+    "pk": 2,
+    "fields": {
+      "x": 0,
+      "y": 1,
+      "comment": "",
+      "by_first_player": true,
+      "game": 2
+    }
+  },
+  {
+    "model": "gameplay.move",
+    "pk": 3,
+    "fields": {
+      "x": 1,
+      "y": 2,
+      "comment": "",
+      "by_first_player": true,
+      "game": 2
+    }
+  },
+  {
+    "model": "gameplay.move",
+    "pk": 4,
+    "fields": {
+      "x": 1,
+      "y": 1,
+      "comment": "",
+      "by_first_player": true,
+      "game": 2
+    }
+  },
+  {
+    "model": "gameplay.move",
+    "pk": 5,
+    "fields": {
+      "x": 0,
+      "y": 0,
+      "comment": "",
+      "by_first_player": true,
+      "game": 4
+    }
+  },
+  {
+    "model": "gameplay.move",
+    "pk": 6,
+    "fields": {
+      "x": 0,
+      "y": 0,
+      "comment": "",
+      "by_first_player": true,
+      "game": 5
+    }
+  },
+  {
+    "model": "gameplay.move",
+    "pk": 7,
+    "fields": {
+      "x": 0,
+      "y": 0,
+      "comment": "",
+      "by_first_player": true,
+      "game": 6
+    }
+  },
+  {
+    "model": "gameplay.move",
+    "pk": 8,
+    "fields": {
+      "x": 0,
+      "y": 0,
+      "comment": "",
+      "by_first_player": true,
+      "game": 7
+    }
+  },
+  {
+    "model": "gameplay.move",
+    "pk": 9,
+    "fields": {
+      "x": 0,
+      "y": 1,
+      "comment": "",
+      "by_first_player": false,
+      "game": 7
+    }
+  },
+  {
+    "model": "gameplay.move",
+    "pk": 10,
+    "fields": {
+      "x": 1,
+      "y": 0,
+      "comment": "",
+      "by_first_player": true,
+      "game": 7
+    }
+  },
+  {
+    "model": "gameplay.move",
+    "pk": 11,
+    "fields": {
+      "x": 1,
+      "y": 1,
+      "comment": "",
+      "by_first_player": false,
+      "game": 7
+    }
+  },
+  {
+    "model": "gameplay.move",
+    "pk": 12,
+    "fields": {
+      "x": 2,
+      "y": 0,
+      "comment": "",
+      "by_first_player": true,
+      "game": 7
+    }
+  },
+  {
+    "model": "player.invitation",
+    "pk": 1,
+    "fields": {
+      "from_user": ["caleb"],
+      "to_user": ["kaylee"],
+      "message": "Hi...",
+      "timestamp": "2020-01-12T15:08:10.668Z"
+    }
+  },
+  {
+    "model": "player.invitation",
+    "pk": 2,
+    "fields": {
+      "from_user": ["caleb"],
+      "to_user": ["kaylee"],
+      "message": "Hi...",
+      "timestamp": "2020-01-12T15:08:16.605Z"
+    }
+  },
+  {
+    "model": "player.invitation",
+    "pk": 5,
+    "fields": {
+      "from_user": ["caleb"],
+      "to_user": ["caleb"],
+      "message": "gdv",
+      "timestamp": "2020-01-12T15:49:50.851Z"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2020-01-05T19:31:17.961Z",
+      "user": ["kaylee"],
+      "content_type": ["auth", "user"],
+      "object_id": "2",
+      "object_repr": "bob",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2020-01-05T19:31:23.097Z",
+      "user": ["kaylee"],
+      "content_type": ["gameplay", "game"],
+      "object_id": "1",
+      "object_repr": "Game object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2020-01-11T16:35:47.662Z",
+      "user": ["caleb"],
+      "content_type": ["gameplay", "game"],
+      "object_id": "2",
+      "object_repr": "caleb vs bob",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2020-01-11T16:35:56.947Z",
+      "user": ["caleb"],
+      "content_type": ["gameplay", "game"],
+      "object_id": "3",
+      "object_repr": "kaylee vs caleb",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2020-01-11T16:36:55.363Z",
+      "user": ["caleb"],
+      "content_type": ["gameplay", "game"],
+      "object_id": "3",
+      "object_repr": "kaylee vs caleb",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  }
+]
