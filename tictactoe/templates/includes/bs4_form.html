@@ -1,0 +1,36 @@
+{% load widget_tweaks %}
+
+<!-- Start form -->
+{% for hidden_field in form.hidden_fields %} {{ hidden_field }} {% endfor %}
+<!-- Non field errors -->
+{% if form.non_field_errors %}
+<div class="alert alert-danger" role="alert">
+  {% for error in form.non_field_errors %} {{ error }} {% endfor %}
+</div>
+{% endif %} {% for field in form.visible_fields %}
+<div class="form-group">
+  {{ field.label_tag }}
+  <!-- Check bound  -->
+  {% if form.is_bound %}
+  <!-- Check errors -->
+  {% if field.errors %}
+  <!-- Render field -->
+  {% render_field field class="form-control is-invalid" %}
+  <!-- Render errors -->
+  {% for error in field.errors %}
+  <div class="invalid-feedback">
+    {{ error }}
+  </div>
+  {% endfor %}
+  <!-- Otherwise -->
+  {% else %} {% render_field field class="form-control is-valid" %}
+  <!-- End if -->
+  {% endif %}
+  <!-- Otherwise -->
+  {% else %} {% render_field field class="form-control" %} {% endif %}
+  <!-- If help text -->
+  {% if field.help_text %}
+  <small class="form-text text-muted">{{ field.help_text }}</small>
+  {% endif %}
+</div>
+{% endfor %}

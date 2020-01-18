@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+<!-- Title -->
+{% block title %} Signup {% endblock %}
+
+<!-- Content -->
+{% block content %}
+<form role="form" action="{% url 'player_signup' %}" method="POST">
+  {% csrf_token %}
+
+  <p>Please fill in the orm below to create an account</p>
+
+  {% include "includes/bs4_form.html" with form=form %}
+
+  <button type="submit" class="btn btn-success">Sign up</button>
+</form>
+{% endblock %}

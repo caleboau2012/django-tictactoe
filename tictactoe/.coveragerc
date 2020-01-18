@@ -1,0 +1,10 @@
+[run]
+branch = True
+omit = */django-env/*
+        */__init__.py
+        */test*.py
+        */migrations/*
+        */urls.py
+        */manage.py
+        */admin.py
+        */apps.py

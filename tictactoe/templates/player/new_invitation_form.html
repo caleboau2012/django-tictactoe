@@ -1,0 +1,8 @@
+{% extends "base.html" %} {% block title %} New Invitation {% endblock %}
+<!-- Start content -->
+{% block content %}
+<form method="POST" action="{% url 'player_new_invitation' %}">
+  {% csrf_token %} {% include 'includes/bs4_form.html' with form=form %}
+  <button type="submit" class="btn btn-success">Send the invitation</button>
+</form>
+{% endblock %}
