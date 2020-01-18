@@ -1,1 +1,1 @@
-web: gunicorn django-tictactoe.wsgi
+web: gunicorn tictactoe.wsgi --log-file -
