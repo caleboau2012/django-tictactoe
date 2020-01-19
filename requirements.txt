@@ -16,6 +16,7 @@ mccabe==0.6.1
 pathspec==0.7.0
 psycopg2==2.8.4
 pylint==2.4.4
+python-dotenv==0.10.4
 pytz==2019.3
 regex==2019.12.20
 six==1.13.0
